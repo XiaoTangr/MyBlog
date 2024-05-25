@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
     <div>
         <el-card>
@@ -13,20 +12,4 @@
 
 <style scoped>
 
-=======
-<template>
-    <div>
-        <el-card>
-            admin
-        </el-card>
-    </div>
-</template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
->>>>>>> af044e551b938f60addbbd51843ba5de60571109
 </style>

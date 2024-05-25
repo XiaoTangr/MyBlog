@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
     <el-ccard>
         
@@ -11,18 +10,4 @@
 
 <style scoped>
 
-=======
-<template>
-    <el-ccard>
-        
-    </el-ccard>
-</template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
->>>>>>> af044e551b938f60addbbd51843ba5de60571109
 </style>
