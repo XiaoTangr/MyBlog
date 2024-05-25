@@ -1,0 +1,56 @@
+<<<<<<< HEAD
+###
+GET http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+
+###
+POST http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+}
+
+###
+PUT  http://127.0.0.1:8000/api/articles/update HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+}
+###
+DELETE   http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+=======
+###
+GET http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+
+###
+POST http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+}
+
+###
+PUT  http://127.0.0.1:8000/api/articles/update HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+}
+###
+DELETE   http://127.0.0.1:8000/api/articles HTTP/1.1
+content-type: application/json
+
+{
+    "id":"1"
+>>>>>>> af044e551b938f60addbbd51843ba5de60571109
+}
