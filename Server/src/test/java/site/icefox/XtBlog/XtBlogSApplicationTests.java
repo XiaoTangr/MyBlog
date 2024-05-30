@@ -1,10 +1,11 @@
-package site.icefox.xt_blog_s;
+package site.icefox.XtBlog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import site.icefox.xt_blog_s.entity.Site;
-import site.icefox.xt_blog_s.mapper.SiteMapper;
+import site.icefox.XtBlog.entity.Site;
+import site.icefox.XtBlog.mapper.SiteMapper;
+
 
 import java.util.List;
 
