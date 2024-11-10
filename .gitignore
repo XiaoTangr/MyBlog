@@ -1,2 +1,2 @@
-/Web/v1/*.development
+*.development
 application-production.properties
