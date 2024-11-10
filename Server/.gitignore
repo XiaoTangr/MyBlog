@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Spring Boot production configuration files
+Server/src/main/resources/application-prod.properties
+Server/src/main/resources/application-prod.yml
+Server/src/main/resources/application-production.properties
+Server/src/main/resources/application-production.yml

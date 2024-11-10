@@ -3,8 +3,8 @@ package site.icefox.orangeblog.server;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import site.icefox.orangeblog.server.Domain.Entity.UsersEntity;
-import site.icefox.orangeblog.server.Service.Impl.UsersServiceImpl;
+import site.icefox.orangeblog.server.Common.Util.PasswdUtil;
+import site.icefox.orangeblog.server.api.Service.Impl.UsersServiceImpl;
 
 @SpringBootTest
 class ServerApplicationTests {
@@ -13,10 +13,9 @@ class ServerApplicationTests {
 
     @Test
     void contextLoads() throws Exception {
-
-        UsersEntity users;
-
-
     }
 
+    @Test
+    void testEncryptPasswd() {
+    }
 }
