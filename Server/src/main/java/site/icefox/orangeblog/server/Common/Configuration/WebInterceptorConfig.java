@@ -8,10 +8,11 @@ import site.icefox.orangeblog.server.Interceptor.AuthInterceptor;
 @Configuration
 public class WebInterceptorConfig implements WebMvcConfigurer {
 
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new AuthInterceptor())
-                .addPathPatterns("/*")
+                .addPathPatterns("/**")
                 .excludePathPatterns("/api/v1/users/register")
                 .excludePathPatterns("/api/v1/users/login");
     }

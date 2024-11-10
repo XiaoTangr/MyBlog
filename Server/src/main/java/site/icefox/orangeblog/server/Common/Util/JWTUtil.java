@@ -79,7 +79,7 @@ public class JWTUtil {
         try {
             Algorithm algorithm = Algorithm.HMAC256(SECRET_KEY);
             JWTVerifier verifier = JWT.require(algorithm)
-                    .withIssuer("librarysys")
+                    .withIssuer(ISSUER)
                     .build(); //Reusable verifier instance
             DecodedJWT jwt = verifier.verify(token);
             return true;

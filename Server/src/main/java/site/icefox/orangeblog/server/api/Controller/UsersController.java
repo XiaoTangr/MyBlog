@@ -16,12 +16,12 @@ public class UsersController {
     @Autowired
     UsersServiceImpl us;
 
-    @GetMapping("/getuser")
+    @GetMapping("/")
     public List<UsersDto> getUsers() {
         return us.queryAllUsers();
     }
 
-    @GetMapping("/getuser/{email}")
+    @GetMapping("/{email}")
     public UsersDto getUser(@PathVariable("email") String email) {
         return us.queryUsersByEmail(email);
     }
